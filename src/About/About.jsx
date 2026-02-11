@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { FaUsers, FaBullseye, FaGlobe, FaPhone } from "react-icons/fa";
 import pic1 from '../assets/payel.jpg';
 import pic2 from '../assets/nadiya.png';
-import pic3 from '../assets/Zahin.jpeg';
+import pic3 from '../assets/zahin.jpeg';
 import pic4 from '../assets/sorna.png';
 import pic5 from '../assets/trikul.png';
-import pic7 from '../assets/jubaiyer.jpg';
+import pic7 from '../assets/jubayer.jpg';
 import pic6 from '../assets/shila.jpeg';
 import pic8 from '../assets/ikra.jpg';
-import pic9 from '../assets/Tanvir.jpg';
+import pic9 from '../assets/tanvir.jpg';
 import me from '../assets/ME.jpg'
 
 const About = () => {
