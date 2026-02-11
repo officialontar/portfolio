@@ -8,7 +8,7 @@ import pic5 from '../assets/trikul.png';
 import pic7 from '../assets/jubayer.jpg';
 import pic6 from '../assets/shila.jpeg';
 import pic8 from '../assets/ikra.jpg';
-import pic9 from '../assets/tanvir.jpg';
+import pic9 from '../assets/ahemd.jpg';
 import me from '../assets/ME.jpg'
 
 const About = () => {
