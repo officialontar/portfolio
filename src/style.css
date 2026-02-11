@@ -1,0 +1,296 @@
+body {
+  background-color: #0f172a;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0f172a;
+  border-bottom: 1px solid #1e293b;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* style.css */
+
+.nav li a {
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect: underline and color */
+.nav li a:hover {
+  color: #02fce7; /* Indigo-600 বা নিজের পছন্দমতো */
+}
+
+.nav li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f4f802;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav li a:hover::after {
+  width: 100%;
+}
+
+/* Active link style */
+.nav li a.active {
+  color: #08a590; /* Blue-700 */
+  font-weight: bold;
+}
+
+.nav li a.active::after {
+  width: 100%;
+  background-color: #b1df0c;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.left h1 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.left h2 {
+  font-size: 24px;
+  color: #02e9fa;
+}
+
+.left p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+.left b {
+  display: inline-block;
+  margin-top: 15px;
+  color: #facc15;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.btns button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-download {
+  background-color: #0ffcfc;
+  color: rgb(32, 29, 29);
+}
+
+.btn-download:hover {
+  background-color: #6366f1;
+}
+
+.btn-start {
+  background-color: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.btn-start:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #38bdf8;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  text-align: center;
+}
+/* .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.4s;
+  border: 5px solid #0f172a; 
+  background-color: #0f172a;
+  z-index: 2;
+} picture soho ghure 2*/
+
+/* .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  object-fit: cover;
+  transition: 0.4s;
+} */
+.git{
+    border: 5px solid #38bdf8;
+  object-fit: cover;
+  
+}
+.git:hover{
+    transition: 0.4s;
+  border-radius: 40%;
+  box-shadow: 0 0 50px #38bdf8;
+}
+
+
+.profile-pic.glow {
+  box-shadow: 0 0 50px #38bdf8;
+}
+/* .profile-pic-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    from 0deg,
+    #00ffff,
+    #ff00ff,
+    #00ff00,
+    #ffcc00,
+    #00ffff
+  );
+  animation: rotate 4s linear infinite;
+  padding: 5px;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.4s;
+  border: 5px solid #0f172a; 
+  background-color: #0f172a;
+  z-index: 2;
+}
+
+
+.profile-pic-wrapper:hover {
+  box-shadow: 0 0 30px 10px rgba(56, 189, 248, 0.6);
+} picture soho ghure 2*/
+
+/* picture er color ghurbe  */
+.profile-pic-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+}
+
+.gradient-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: #f85e38;
+  background: conic-gradient(
+    from 0deg,
+    #e8ec06,
+    
+    #fbff006c,#0f172a,
+    #0f172a,
+    #04eeda,
+    #0f172a,
+    #0f172a,
+    #ffffff,
+    #0f172a,
+    #0f172a,
+    #04fde8,
+    #0f172a,
+    /* #ffffff, */
+    #0f172a
+  );
+  animation: spin 4s linear infinite;
+  z-index: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+  position: relative;
+  background-color: #0f172a;
+  border: 5px solid #0f172a;
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-pic-wrapper:hover .profile-pic {
+  box-shadow: 0 0 85px #04ddfa;
+}
