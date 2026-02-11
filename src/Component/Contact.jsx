@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
   const SubmitHaandel = (e) => {
-    e.preventDefault(); // form refresh ঠেকাতে
+    e.preventDefault();
 
     const form = e.target;
 
@@ -21,7 +21,6 @@ const Contact = () => {
       if (result.isConfirmed) {
         Swal.fire("Saved!", "", "success");
       } else if (result.isDenied) {
-        // ✅ Netlify-তে ডাটা পাঠানোর জন্য (API না, normal form POST)
         const formData = new FormData(form);
 
         fetch("/", {
@@ -62,17 +61,28 @@ const Contact = () => {
           PROBLEM.......
         </Marquee>
 
-        {/* ✅ Netlify detect করার জন্য form attributes */}
         <form
           name="contact"
           method="POST"
           action="/"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={SubmitHaandel}
           className="space-y-6"
         >
-          {/* ✅ Netlify form-name hidden field */}
+          {/* Netlify Required Hidden Field */}
           <input type="hidden" name="form-name" value="contact" />
+
+          {/* Honeypot Protection */}
+          <p style={{ display: "none" }}>
+            <label>
+              Don’t fill this out:
+              <input name="bot-field" />
+            </label>
+          </p>
+
+          {/* Netlify reCAPTCHA */}
+          <div data-netlify-recaptcha="true"></div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <input
