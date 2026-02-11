@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaUsers, FaBullseye, FaGlobe, FaPhone } from "react-icons/fa";
-import pic1 from '../assets/payel.jpg';
+import pic1 from '../assets/hasan.jpg';
 import pic2 from '../assets/nadiya.png';
 import pic3 from '../assets/zahin.jpeg';
 import pic4 from '../assets/sorna.png';
