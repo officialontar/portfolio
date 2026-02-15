@@ -4,7 +4,7 @@ import pic1 from '../assets/hasan.jpg';
 import pic2 from '../assets/nadiya.png';
 import pic3 from '../assets/mondul.jpeg';
 import pic4 from '../assets/sorna.png';
-import pic5 from '../assets/trikul.png';
+import pic5 from '../assets/hamja.jpg';
 import pic7 from '../assets/jubayer.jpg';
 import pic6 from '../assets/shila.jpeg';
 import pic8 from '../assets/ikra.jpg';
@@ -130,7 +130,7 @@ const About = () => {
             { name: "Mst. Nadiya Sultana Nur", role: "UI/UX Designer", image: pic2 },
             { name: "Md. Zihad Mondol", role: "Founder & Developer", image: pic3 },
             { name: "Sowra Hok", role: "Marketing Lead", image: pic4 },
-            { name: "Md. Torikul", role: "Backend Developer", image: pic5 },
+            { name: "Md. Abu Hamja", role: "Backend Developer", image: pic5 },
             { name: "Mst. Shila", role: "CSE Specialist", image: pic6 },
             { name: "Jubayer Ahmed", role: "Hardware", image: pic7 },
             { name: "Tyef Hossin Ikra", role: "SEO Specialist", image: pic8 },

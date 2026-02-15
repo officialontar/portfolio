@@ -88,9 +88,9 @@ const About2 = () => {
             "Student Portfolios",
             "Branding",
             "Online Marketing",
-            "Student Portfolios",
-            "Branding",
-            "Online Marketing",
+            "E-commerce Solutions",
+            "Custom Web Applications",
+            "AI Integration",
           ].map((service, index) => (
             <div
               key={index}
@@ -112,15 +112,15 @@ const About2 = () => {
         <h3 className="text-2xl font-bold text-center text-secondary">Meet The Team</h3>
         <div className="flex flex-wrap gap-6 justify-center">
           {[
-            { name: "Hamza", role: "Founder & Developer" },
-            { name: "Asif", role: "UI/UX Designer" },
-            { name: "Nadiya", role: "Marketing Lead" },
+            { name: "Olivia Martinez", role: "Founder & Developer" },
+            { name: "Nadiya", role: "UI/UX Designer" },
+            { name: "Sophia Williams", role: "Marketing Lead" },
           ].map((member, i) => (
             <div
               key={i}
               className="w-60 bg-base-200 p-4 rounded-xl shadow hover:scale-105 hover:bg-primary hover:text-white transition"
             >
-              <div className="avatar mb-2">
+              <div className="avatar mb-2 flex justify-center">
                 <div className="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mx-auto">
                   <img src={`https://i.pravatar.cc/150?img=${i + 30}`} alt={member.name} />
                 </div>
