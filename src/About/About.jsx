@@ -129,7 +129,7 @@ const About = () => {
             { name: "Md. Payel Hasan", role: "Networking", image: pic1 },
             { name: "Mst. Nadiya Sultana Nur", role: "UI/UX Designer", image: pic2 },
             { name: "Md. Zihad Mondol", role: "Founder & Developer", image: pic3 },
-            { name: "Sowra Hok", role: "Marketing Lead", image: pic4 },
+            { name: "Sorna Khatun", role: "Marketing Lead", image: pic4 },
             { name: "Md. Abu Hamja", role: "Backend Developer", image: pic5 },
             { name: "Mst. Shila", role: "CSE Specialist", image: pic6 },
             { name: "Jubayer Ahmed", role: "Hardware", image: pic7 },
