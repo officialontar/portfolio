@@ -1,6 +1,10 @@
 
 import './App.css'
 
+<div className="pt-26">
+    <Home />
+</div>
+
 function App() {
  
 

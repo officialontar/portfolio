@@ -37,7 +37,7 @@ const Profile = () => {
                     <p className='typewriter line5'><b>Bhance:</b> bhance.net/officialontar</p>
 
                     <div className="btns">
-                        <a href="https://drive.google.com/file/d/19Pea2TXfWynJ5jLGrMRRVIoe9cvLVP8i/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://drive.google.com/file/d/1fFcAtG6owae6RLvCncQjRPwL7qZIgZnr/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
                             <button className="btn-download" >Download My CV</button></a>
                         <a href="https://wa.me/8801319541875" target="_blank" rel="noopener noreferrer" >
                             <button className="btn-start">Get Started</button></a>

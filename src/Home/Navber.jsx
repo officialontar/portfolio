@@ -8,7 +8,7 @@ const Navbar = () => {
         <li><Link to="/About">About</Link></li>
         <li><Link to="/Sercices">Services</Link></li>
         <li><Link to="/MySkill">Skills</Link></li>
-        <li><Link to="/Profile">Protfolio</Link></li>
+        <li><Link to="/Profile">Portfolio</Link></li>
         <li><Link to="/Contact">Contact</Link></li>
     </>
     return (

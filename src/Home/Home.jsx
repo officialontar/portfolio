@@ -4,20 +4,39 @@ import Projects from "../Component/Project/Projects";
 import Profile from "./Profile1/Profile";
 import About2 from "../About/About2";
 import PhotoGallery from "./PhotoGallery";
-// import ProtfoliodashBoard from "../Component/ProtfoliodashBoard";
-// import Banner from "./Banner";
- 
+import Services from "../Component/Services";
+import MySkills from "../Component/MySkills";
+import Contact from "../Component/Contact";
+
 const Home = () => {
     return (
-        <div>
-            {/* <ProtfoliodashBoard></ProtfoliodashBoard> */}
-            <Profile></Profile>
-            {/* <Banner></Banner> */}
-            <About></About>
-            <About2></About2>
-            <ProjectCard></ProjectCard>
-            <Projects></Projects>
-            <PhotoGallery></PhotoGallery>
+        <div className="pt-20">
+            <section id="home" className="scroll-mt-24">
+                <Profile />
+            </section>
+
+            <section id="about" className="scroll-mt-24">
+                <About />
+            </section>
+
+            <section id="services" className="scroll-mt-24">
+                <About2 />
+                <Services />
+            </section>
+
+            <section id="skills" className="scroll-mt-24">
+                <MySkills />
+                <ProjectCard />
+            </section>
+
+            <section id="portfolio" className="scroll-mt-24">
+                <Projects />
+                <PhotoGallery />
+            </section>
+
+            <section id="contact" className="scroll-mt-24">
+                <Contact />
+            </section>
         </div>
     );
 };
